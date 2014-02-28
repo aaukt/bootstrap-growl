@@ -4,5 +4,18 @@
     "keywords": ["bootstrap", "growl", "notifications"],
     "homepage": "https://github.com/ifightcrime/bootstrap-growl",
     "author": "Nick Larson",
-    "license": "MIT"
+    "license": "MIT",
+    "type": "component",
+    "extra": {
+        "component": {
+            "scripts": [
+                "jquery.bootstrap-growl.js",
+                "jquery.bootstrap-growl.min.js"
+            ],
+            "styles": []
+        }
+    },
+    "require": {
+        "robloach/component-installer": "*"
+    }
 }
